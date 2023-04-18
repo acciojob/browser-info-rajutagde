@@ -10,6 +10,13 @@
 	  <div id="browser-info"></div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
+		//your JS code here. If required.
+const browserInfo = document.getElementById('browser-info');
+    const browserName = navigator.appName;
+    const browserVersion = navigator.appVersion;
+
+    browserInfo.textContent = `You are using ${browserName} version ${browserVersion}`;
+
 </script>
 
 </body>
